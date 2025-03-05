@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model and vectorizer
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("spam_model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 @app.route("/")
