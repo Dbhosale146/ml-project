@@ -1,2 +1,8 @@
-Flask 
+numpy
+pandas
+scikit-learn
+#tensorflow
+nltk
+flask
 gunicorn
+pickle-mixin
