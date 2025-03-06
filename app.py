@@ -4,8 +4,9 @@ import numpy as np
 
 app = Flask(__name__)
 
+
 # Load the trained model and vectorizer
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb" ))
 vectorizer = pickle.load(open("model2.pkl", "rb"))
 
 @app.route("/")
