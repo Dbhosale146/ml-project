@@ -1,7 +1,7 @@
 numpy
 pandas
 scikit-learn
-#tensorflow
+tensorflow
 nltk
 flask
 gunicorn
